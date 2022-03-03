@@ -8,7 +8,5 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "rules": {
-    "prefer-arrow-callback": "error"
-  }
+  "rules": {}
 }
