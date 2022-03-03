@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator with SOAP WSDL</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form runat="server" id="content">
+      <h1>Calculator</h1>
+      <label id="label">First Number:</label>
+      <input id="intA" type="text" value="0" style="width: 150px" /> <br />
+      <br />
+      <label id="label">Second Number:</label>
+      <input id="intB" type="text" value="0" style="width: 150px" /> <br />
+      <br />
+      Result: <label id="Result"></label>
+      <br />
+      <br />
+      <button id="Add" class="btn" type="button">Add</button>
+      <button id="Substract" class="btn" type="button">Substract</button>
+      <button id="Divide" class="btn" type="button">Divide</button>
+      <button id="Multiply" class="btn" type="button">Multiply</button>
+      <br />
+      <div id="errmsg"></div>
+    </form>
+  </body>
+</html>

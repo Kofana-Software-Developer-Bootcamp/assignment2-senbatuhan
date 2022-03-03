@@ -1,0 +1,38 @@
+#label {
+  width: 110px;
+  display: inline-block;
+  text-align: left;
+}
+#content {
+  padding: 10px;
+  text-align: left;
+  display: inline-block;
+  border-style: inset;
+  border-width: 5px;
+  background-image: linear-gradient(
+    rgba(109, 94, 94, 0.5),
+    rgba(171, 171, 201, 0.5)
+  );
+}
+#content h1 {
+  text-align: center;
+  color: rgb(26, 11, 11);
+}
+#errmsg {
+  color: red;
+}
+.btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(148, 69, 69);
+  color: white;
+}
