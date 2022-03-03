@@ -7,7 +7,7 @@ jQuery.ajaxPrefilter(function (options) {
 
 // Addition
 $(function () {
-  // the following event handler will handle click events for BUTTON
+  // the following event handler will handle click events for Add Button
   $("#Add").on("click", function (event) {
     //clear error text when the new operation called
     $("#errmsg").text("");
@@ -55,7 +55,7 @@ $(function () {
 });
 //Substract
 $(function () {
-  // the following event handler will handle click events for BUTTON
+  // the following event handler will handle click events for Substract Button
   $("#Substract").on("click", function (event) {
     //clear error text when the new operation called
     $("#errmsg").text("");
@@ -103,7 +103,7 @@ $(function () {
 });
 //Divide
 $(function () {
-  // the following event handler will handle click events for BUTTON
+  // the following event handler will handle click events for Divide Button
   $("#Divide").on("click", function (event) {
     //clear error text when the new operation called
     $("#errmsg").text("");
@@ -151,7 +151,7 @@ $(function () {
 });
 //Multiply
 $(function () {
-  // the following event handler will handle click events for BUTTON
+  // the following event handler will handle click events for Multiply Button
   $("#Multiply").on("click", function (event) {
     //clear error text when the new operation called
     $("#errmsg").text("");
@@ -190,7 +190,6 @@ $(function () {
           .catch((error) => {
             $("#errmsg").text(error);
           });
-        //$("#errmsg").text(data.responseText);
       },
       complete: function (data, status) {
         self.disabled = false;
