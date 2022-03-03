@@ -4,7 +4,7 @@ jQuery.ajaxPrefilter(function (options) {
     options.url = "https://cors-anywhere.herokuapp.com/" + options.url;
   }
 });
-// eslint-disable-line no-eval
+
 // Addition
 $(function () {
   // the following event handler will handle click events for BUTTON
@@ -46,7 +46,6 @@ $(function () {
           .catch((error) => {
             $("#errmsg").text(error);
           });
-        //$("#errmsg").text(data.responseText);
       },
       complete: function (data, status) {
         self.disabled = false;
@@ -95,7 +94,6 @@ $(function () {
           .catch((error) => {
             $("#errmsg").text(error);
           });
-        //$("#errmsg").text(data.responseText);
       },
       complete: function (data, status) {
         self.disabled = false;
@@ -144,7 +142,6 @@ $(function () {
           .catch((error) => {
             $("#errmsg").text(error);
           });
-        //$("#errmsg").text(data.responseText);
       },
       complete: function (data, status) {
         self.disabled = false;
