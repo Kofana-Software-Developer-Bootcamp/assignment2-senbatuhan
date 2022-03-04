@@ -11,3 +11,10 @@ The code formatted with Prettier.
 ## API
 
 [SOAP WSDL](http://www.dneonline.com/calculator.asmx?WSDL)
+
+## Important
+
+When you used it first time, you can get this error
+![error](error.png)
+
+to Handle with CORS, you have to click upper line and request a temporariy server from cors-anywhere.
